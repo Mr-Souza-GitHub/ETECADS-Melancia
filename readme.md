@@ -26,9 +26,9 @@ A proposta consiste na criação de uma **landing page responsiva** com foco inf
 
 ## 📸 Preview
 
-> *![Preview 1 do Projeto](./img/print_pc1)*
-> *![Preview 2 do Projeto](./img/print_pc2)*
-> *![Preview 3 do Projeto](./img/print_pc3)*
+> *![Preview 1 do Projeto](./img/print_pc1.png)*
+> *![Preview 2 do Projeto](./img/print_pc2.png)*
+> *![Preview 3 do Projeto](./img/print_pc3.png)*
 
 ---
 
