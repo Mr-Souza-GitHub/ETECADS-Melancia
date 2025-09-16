@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <!-- Own Source -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>WaterMelon</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark px-2">
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand d-inline-flex align-items-center justify-content-aroud" href="#">
+          <!-- Logo img -->
+          <img src="img/melancia-logo.png" alt="" width="30" height="auto"
+            class="d-inline-block align-text-top rounded-circle me-2">
+          <!-- Nav text -->
+          <span class="text-success" style="font-weight: 700">Water</span><span class="text-danger"
+            style="letter-spacing: 1px;">Melon</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse justify-content-end collapse" id="navbarCollapse">
+          <ul class="navbar-nav mb-2 mb-md-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#tipos" role="button"
+                aria-expanded="false">Tipos</a>
+              <ul class="dropdown-menu text-bg-dark">
+                <li><a class="dropdown-item text-white" href="#tipos">Tipos</a></li>
+                <hr class="w-100">
+                <li><a class="dropdown-item text-white" href="#tipo-charleston-gray">Charleston Gray</a></li>
+                <li><a class="dropdown-item text-white" href="#tipo-sugar-baby">Sugar Baby</a></li>
+                <li><a class="dropdown-item text-white" href="#tipo-crimson-sweet">Crimson Sweet</a></li>
+                <li><a class="dropdown-item text-white" href="#tipo-densuke">Densuke</a></li>
+                <li><a class="dropdown-item text-white" href="#tipo-yellow-doll">Yellow Doll</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Site do Biel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../Blog-do-melancio/">Site do Bolso</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main data-bs-spy="scroll" data-bs-target="navbar">
+    <!-- Início -->
+    <section id="inicio"
+      class="cover-container backdrop-inicio d-flex w-100 min-vh-100 mx-auto flex-column align-items-center justify-content-center text-white">
+      <div class="p-3 h-100 backdrop">
+        <h1><span class="text-success" style="font-weight: 700;">Water</span>
+          <span class="text-danger" style="letter-spacing: 1px;">Melon<span>
+        </h1>
+        <figure>
+          <blockquote class="blockquote">
+            <p class="mb-3">
+              <!-- Nas fruteiras da vida, a melancia se destaca, mas nenhuma delas é tão gostosa quanto a <abbr title="Censurado pra não tomar processo"><mark class="badge bg-black text-black">sua mãe</mark></abbr>. -->
+              Mesmo a melancia mais doce precisou romper sua casca para revelar o que é por dentro.
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            <!-- Renan, <cite title="Source Title">2023</cite> -->
+            Desconhecido, <cite title="Source Title">2023</cite>
+          </figcaption>
+        </figure>
+        <p class="lead">
+          <a onclick="document.documentElement.scrollTop = (window.innerHeight + (window.innerHeight / 3));"
+            class="btn btn-lg btn-outline-success fw-bold">Veja mais</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="min-vh-100 text-bg-dark p-5">
+      <div class="container-fluid content justify-content-center">
+        <h2 class="text-center mt-2">Sobre</h2>
+        <hr class="w-100 mx-2 mb-5">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="text-wrap text-justify">
+              As melancias, além de serem refrescantes e deliciosas, desempenham um papel significativo na economia e na
+              saúde. Economicamente, a produção e comercialização de melancias são fontes essenciais de renda para
+              agricultores em várias partes do mundo. O cultivo de melancias gera empregos, impulsiona o comércio
+              agrícola e contribui para a estabilidade econômica de muitas comunidades rurais. Além disso, as melancias
+              são uma cultura versátil, adaptando-se a diferentes climas e solos, proporcionando uma produção confiável
+              em várias regiões.
+
+              Do ponto de vista da saúde, as melancias são uma excelente fonte de hidratação, especialmente durante os
+              meses quentes. Composta principalmente de água, a melancia ajuda a manter o corpo hidratado, sendo uma
+              opção saudável e saborosa para combater a desidratação. Além disso, ela é rica em nutrientes como a
+              vitamina C, que fortalece o sistema imunológico, e o licopeno, um antioxidante associado à saúde
+              cardiovascular. Com benefícios nutricionais e um sabor irresistível, as melancias são verdadeiramente uma
+              adição valiosa à nossa dieta diária.
+            </p>
+          </div>
+          <div class="col-md-4 h-auto">
+            <img src="img/melancia-logo.png" class="img-fluid w-100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tipos -->
+    <section id="tipos" class="min-vh-100 bg-dark text-white p-5">
+      <h2 class="text-center mt-2">Tipos de melancia</h2>
+      <hr class="w-100 mx-2 mb-5">
+      <figure>
+        <blockquote class="blockquote">
+          <!-- <p class="mb-3">Existem diversos tipos de melancias espalhadas ao redor do mundo, com diferentes diâmetros, mas nenhuma se compara ao tamano da <abbr title="Censurado pra não tomar processo"><mark class="badge bg-black text-black">Thais Carla</mark></abbr>.</p> -->
+          "Com a safra recorde deste ano, produtores de melancia comemoram o aumento nas vendas e o fortalecimento da
+          agricultura familiar."
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <!-- Iriney, em <cite title="Source Title">Algum Lugar Aí</cite> -->
+          Anônimo, em <cite title="Source Title">Cidade - UF</cite>
+        </figcaption>
+      </figure>
+      <p class="mb-3 text-justify">A incrível diversidade de melancias ao redor do mundo é resultado de séculos de
+        seleção natural e
+        intervenção humana. Originárias da África, as melancias foram domesticadas há milênios, e ao longo do tempo,
+        foram adaptadas para diferentes condições climáticas e preferências locais. A diversificação de tipos de
+        melancias é notável, com cada variedade exibindo características únicas em termos de sabor, textura e aparência.
+        A criação de novas variedades de melancias é muitas vezes conduzida por agricultores e cientistas, buscando
+        aprimorar atributos específicos, como resistência a doenças, tamanho, sabor e cor. O resultado é um espectro de
+        melancias que vai desde as clássicas e gigantes até as raras e exóticas, cada uma com sua própria história
+        genética.
+
+        Essa variedade não apenas enriquece a experiência gastronômica, mas também contribui para a preservação da
+        biodiversidade agrícola. Ao apreciar as diferentes variedades de melancias, celebramos a riqueza da natureza e a
+        habilidade humana de moldar e diversificar as culturas ao longo do tempo.
+      </p>
+
+      <div class="accordion bg-dark d-flex flex-column justify-content-center align-items-center" id="accordionTipos">
+        <div class="container-accordion">
+          <div id="tipo-charleston-gray" class="accordion-item mb-4 border-0 bg-dark text-white">
+            <h2 class="accordion-header bg-dark text-white rounded-4"
+              style="background-image: url('img/tipos/charleston-gray.webp');">
+              <button
+                class="accordion-button bg-dark text-white card card-cover w-100 h-auto overflow-hidden text-bg-dark rounded-4 shadow-lg collapsed"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapse-charleston-gray" aria-expanded="false"
+                aria-controls="collapse-charleston-gray">
+                <div class="d-flex flex-column w-100 h-100 p-auto pb-3 text-white text-shadow-1">
+                  <h3 class="w-100 pt-5 mt-5 mb-4 display-6 fw-bold">Charleston Gray</h3>
+                  <ul class="d-flex flex-wrap justify-content-around list-unstyled mt-auto px-1">
+
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-geo-alt"></i>
+                      <small>Estados Unidos</small>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-calendar4-week me-1"></i>
+                      <small>80-85d</small>
+                    </li>
+                  </ul>
+                </div>
+              </button>
+            </h2>
+            <div id="collapse-charleston-gray" class="accordion-collapse collapse" data-bs-parent="#accordionTipos">
+              <div class="accordion-body p-3">
+                <p class="pt-2">A melancia Charleston Gray é uma variedade popular nos Estados Unidos, conhecida por sua
+                  casca fina e
+                  verde-claro. A polpa é de um vermelho vibrante, doce e suculenta. As sementes são geralmente pretas. A
+                  forma oblonga e o tamanho considerável a tornam uma escolha popular para festas e eventos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="tipo-sugar-baby" class="accordion-item mb-4 border-0 bg-dark text-white">
+            <h2 class="accordion-header bg-dark text-white rounded-4"
+              style="background-image: url('img/tipos/sugar-baby.webp');">
+              <button
+                class="accordion-button bg-dark text-white card card-cover w-100 h-auto overflow-hidden text-bg-dark rounded-4 shadow-lg collapsed"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapse-sugar-baby" aria-expanded="false"
+                aria-controls="collapse-sugar-baby">
+                <div class="d-flex flex-column w-100 h-100 p-auto pb-3 text-white text-shadow-1">
+                  <h3 class="w-100 pt-5 mt-5 mb-4 display-6 fw-bold">Sugar Baby</h3>
+                  <ul class="d-flex flex-wrap justify-content-around list-unstyled mt-auto px-1">
+
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-geo-alt"></i>
+                      <small>África</small>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-calendar4-week me-1"></i>
+                      <small>80-90d</small>
+                    </li>
+                  </ul>
+                </div>
+              </button>
+            </h2>
+            <div id="collapse-sugar-baby" class="accordion-collapse collapse" data-bs-parent="#accordionTipos">
+              <div class="accordion-body p-3">
+                <p class="pt-2">Originária da África, a Sugar Baby é uma melancia menor, geralmente pesando de 5 a 10
+                  quilos. Sua casca
+                  é verde-escura e firme, contrastando com a polpa vermelha intensa e doce. Por ser compacta, é uma
+                  escolha comum para famílias pequenas e é conhecida por seu tamanho conveniente e sabor marcante.</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="tipo-crimson-sweet" class="accordion-item mb-4 border-0 bg-dark text-white">
+            <h2 class="accordion-header bg-dark text-white rounded-4"
+              style="background-image: url('img/tipos/crimson-sweet.webp');">
+              <button
+                class="accordion-button bg-dark text-white card card-cover w-100 h-auto overflow-hidden text-bg-dark rounded-4 shadow-lg collapsed"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapse-crimson-sweet" aria-expanded="false"
+                aria-controls="collapse-crimson-sweet">
+                <div class="d-flex flex-column w-100 h-100 p-auto pb-3 text-white text-shadow-1">
+                  <h3 class="w-100 pt-5 mt-5 mb-4 display-6 fw-bold">Crimson Sweet</h3>
+                  <ul class="d-flex flex-wrap justify-content-around list-unstyled mt-auto px-1">
+
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-geo-alt"></i>
+                      <small>Estados Unidos</small>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-calendar4-week me-1"></i>
+                      <small>80-90d</small>
+                    </li>
+                  </ul>
+                </div>
+              </button>
+            </h2>
+            <div id="collapse-crimson-sweet" class="accordion-collapse collapse" data-bs-parent="#accordionTipos">
+              <div class="accordion-body p-3">
+                <p class="pt-2">Outra variedade dos Estados Unidos, a Crimson Sweet é reconhecida por sua casca
+                  verde-escuro listrada
+                  com padrões de tonalidade mais clara. Sua polpa é avermelhada, firme e muito doce. Comumente pesando
+                  entre 9 e 14 quilos, é uma escolha popular em mercados e supermercados devido ao seu equilíbrio de
+                  doçura e tamanho.</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="tipo-densuke" class="accordion-item mb-4 border-0 bg-dark text-white">
+            <h2 class="accordion-header bg-dark text-white rounded-4"
+              style="background-image: url('img/tipos/densuke.webp');">
+              <button
+                class="accordion-button bg-dark text-white card card-cover w-100 h-auto overflow-hidden text-bg-dark rounded-4 shadow-lg collapsed"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapse-densuke" aria-expanded="false"
+                aria-controls="collapse-densuke">
+                <div class="d-flex flex-column w-100 h-100 p-auto pb-3 text-white text-shadow-1">
+                  <h3 class="w-100 pt-5 mt-5 mb-4 display-6 fw-bold"> Densuke</h3>
+                  <ul class="d-flex flex-wrap justify-content-around list-unstyled mt-auto px-1">
+
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-geo-alt"></i>
+                      <small>Japão</small>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-calendar4-week me-1"></i>
+                      <small>90-100d</small>
+                    </li>
+                  </ul>
+                </div>
+              </button>
+            </h2>
+            <div id="collapse-densuke" class="accordion-collapse collapse" data-bs-parent="#accordionTipos">
+              <div class="accordion-body p-3">
+                <p class="pt-2">Originária do Japão, a melancia Densuke é única devido à sua casca totalmente negra e
+                  brilhante. A
+                  polpa é de um vermelho intenso e tem uma textura crocante e doce. Essa variedade é rara e altamente
+                  valorizada, muitas vezes considerada uma iguaria de luxo.</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="tipo-yellow-doll" class="accordion-item mb-4 border-0 bg-dark text-white">
+            <h2 class="accordion-header bg-dark text-white rounded-4"
+              style="background-image: url('img/tipos/yellow-doll.webp');">
+              <button
+                class="accordion-button bg-dark text-white card card-cover w-100 h-auto overflow-hidden text-bg-dark rounded-4 shadow-lg collapsed"
+                type="button" data-bs-toggle="collapse" data-bs-target="#collapse-yellow-doll" aria-expanded="false"
+                aria-controls="collapse-yellow-doll">
+                <div class="d-flex flex-column w-100 h-100 p-auto pb-3 text-white text-shadow-1">
+                  <h3 class="w-100 pt-5 mt-5 mb-4 display-6 fw-bold"> Yellow Doll</h3>
+                  <ul class="d-flex flex-wrap justify-content-around list-unstyled mt-auto px-1">
+
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-geo-alt"></i>
+                      <small>Estados Unidos</small>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-start">
+                      <i class="bi bi-calendar4-week me-1"></i>
+                      <small>70-75d</small>
+                    </li>
+                  </ul>
+                </div>
+              </button>
+            </h2>
+            <div id="collapse-yellow-doll" class="accordion-collapse collapse" data-bs-parent="#accordionTipos">
+              <div class="accordion-body p-3">
+                <p class="pt-2">A Yellow Doll é uma melancia com casca verde-clara e polpa amarela, proporcionando uma
+                  reviravolta única na cor tradicional da melancia. Ela mantém o sabor doce característico, mas a cor
+                  amarela da polpa a torna visualmente distintiva. Essa variedade é uma escolha interessante para quem
+                  procura algo diferente e surpreendente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer
+    class="backdrop-dark row row-cols-2 row-cols-sm-2 row-cols-md-2 mx-0 py-5 border-top justify-content-around text-bg-dark">
+    <div class="col mb-3 w-25">
+      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <!-- Logo img -->
+        <img src="img/melancia-logo.png" alt="" width="30" height="auto"
+          class="d-inline-block align-text-top rounded-circle me-2">
+        <!-- Nav text -->
+        <span class="text-success" style="font-weight: 700">Water</span><span class="text-danger"
+          style="letter-spacing: 1px;">Melon</span>
+      </a>
+      <p class="text-body-light text-white">Audrey Souza © 2023</p>
+    </div>
+
+    <div class="col mb-3 w-25 d-flex flex-column justify-content-center">
+      <a class="text-end text-danger" href="#">
+        <i class="bi bi-chevron-up img-fluid"></i>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>

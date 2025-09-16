@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Acme", sans-serif;
+}
+
+body {
+  background: url("img/watermelon-bg.jpg");
+  /* background-size: cover; */
+  background-repeat: repeat-y;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: var(--bs-danger) !important;
+  letter-spacing: 1.5px;
+  transition: .3s;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  font-weight: bold;
+  background-color: var(--bs-danger) !important;
+  color: var(--bs-white);
+  letter-spacing: 1.5px;
+  transition: .3s;
+}
+
+.backdrop-inicio {
+  backdrop-filter: blur(10px) brightness(20%);
+  box-shadow: 0 10px 20px -3px black;
+}
+
+.backdrop-dark {
+  backdrop-filter: brightness(20%) blur(5px);
+}
+
+.accordion .container-accordion{
+  width: clamp(80% + 50px, 85%, 100%);
+}
+
+.accordion-header {
+  background-position: center;
+  background-size: cover;
+}
+
+.accordion-header:has(.accordion-button:not(.collapsed)) {
+  box-shadow: 0 3px 10px -1px black;
+}
+
+.accordion-button {
+  background: transparent !important;
+  backdrop-filter: brightness(85%);
+}
+
+.text-justify {
+  text-align: justify;
+}
